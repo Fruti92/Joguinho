@@ -1,0 +1,30 @@
+
+https://github.com/
+
+---para configurar o usuario na maquina---
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+---sequencia de criação inicial---
+git init
+git add .
+git commit -m "mensagem de commit"
+git branch -M main
+git remote add origin LINK DO REPOSITORIO
+git push -u origin main
+
+---criar branch e trocar de branch---
+git branch nova-branch
+git checkout nova-branch
+
+---para clonar um repositorio---
+git clone LINK DO REPOSITORIO
+
+---para atualizar o local com remoto---
+git pull
+
+---para listar todas as branchs tanto locais como remotas---
+git branch -a
+
+comando de rotina
+git add . && git commit -m "mensagem" && git push

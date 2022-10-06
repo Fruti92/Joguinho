@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(53, 131, 135);
+}
+#canvas{
+    border: 2px;
+    border-color: black;
+    border-style: double;
+    background-color: aliceblued;
+}
+.c{
+    background-color: rgb(21, 82, 85);
+}
+.i{
+    padding-left: 2rem;
+}
+.o{
+    font-size: 80px;
+    align-self: center;
+    background-color: rgb(36, 110, 113);
+    padding: 10px;
+    border-radius: 200px;
+    
+    border-color: rgb(6, 22, 28);
+}
+.l{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
